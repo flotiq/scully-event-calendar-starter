@@ -8,6 +8,8 @@ Scully Starter - Calendar Events
 This is a [Scully](https://scully.io/) starter project for a calendar website.
 It's configured to pull events data from [Flotiq](https://flotiq.com) and can be easily deployed to your cloud hosting - Heroku, Netlify, etc.
 
+Live demo: https://awesome-sammet-8accee.netlify.app
+
 Screenshot - homepage
 
 <img alt="Scully+Flotiq events starter - homepage" src="https://github.com/flotiq/scully-event-calendar-starter/raw/master/docs/homepage.png" width=480 />
