@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/breakpoints";
+
+.calendar-hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .hero-text {
+
+    text-align: center;
+    margin-bottom: 50px;
+
+    .logo {
+      height: 50vh;
+      max-height: 20vh;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .hero-cta {
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+
+  @include media-breakpoint-up(md) {
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2em;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    h1 {
+      font-size: 3.5em;
+    }
+    h2 {
+      font-size: 2.5em;
+    }
+  }
+}
+

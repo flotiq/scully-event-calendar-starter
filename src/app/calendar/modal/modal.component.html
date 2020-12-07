@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">
+    {{calendarEvent.event.title}}
+  </h4>
+</div>
+
+<app-event-details [event]="calendarEvent.event.extendedProps"></app-event-details>
+
+<ul class="list-group list-group-flush bg-primary">
+  <li class="list-group-item">
+    <a href="" (click)="goToDetails($event, calendarEvent.event.extendedProps.slug)">
+      Read more &rArr;
+    </a>
+  </li>
+</ul>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-primary" (click)="closeModal()">Close</button>
+</div>

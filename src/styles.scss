@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import "styles/variables";
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right bottom, $primary, $secondary) fixed;
+  color: white;
+}
+
+.fc {
+  a.fc-daygrid-event {
+    border-color: $primary;
+    background-color: $primary;
+    font-weight: normal;
+    color: white;
+
+    .fc-daygrid-event-dot {
+      border-color: white;
+    }
+    .fc-event-title {
+      font-weight: bold;
+    }
+  }
+
+  a {
+    color: black;
+  }
+
+  .fc-event{
+    cursor: pointer;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .fc-toolbar-title {
+      font-size: 1.2em !important;
+    }
+  }
+}

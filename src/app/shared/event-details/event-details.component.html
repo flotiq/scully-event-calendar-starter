@@ -1,0 +1,10 @@
+<ul class="list-group list-group-flush" [ngClass]="{'no-paddings': !padded}">
+  <li class="list-group-item bg-transparent">
+    <fa-icon fixedWidth [icon]="faClock"></fa-icon>
+    {{event.date | date:'medium'}}
+  </li>
+  <li class="list-group-item bg-transparent">
+    <fa-icon fixedWidth [icon]="faMapMarker"></fa-icon>
+    {{event.address}}
+  </li>
+</ul>
