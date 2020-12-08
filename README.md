@@ -12,11 +12,11 @@ Live demo: https://awesome-sammet-8accee.netlify.app
 
 Screenshot - homepage
 
-<img alt="Scully+Flotiq events starter - homepage" src="https://raw.githubusercontent.com/flotiq/scully-event-calendar-starter/main/docs/home.png" width=480 />
+<img alt="Scully+Flotiq events starter - homepage" src="https://raw.githubusercontent.com/flotiq/scully-event-calendar-starter/master/docs/home.png" width=480 />
 
 Screenshot - event details
 
-<img alt="Scully+Flotiq events starter - event page" src="https://raw.githubusercontent.com/flotiq/scully-event-calendar-starter/main/docs/event_page.png" width=480 />
+<img alt="Scully+Flotiq events starter - event page" src="https://raw.githubusercontent.com/flotiq/scully-event-calendar-starter/master/docs/event_page.png" width=480 />
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
