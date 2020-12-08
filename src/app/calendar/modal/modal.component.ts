@@ -20,10 +20,4 @@ export class ModalComponent {
   closeModal(): void {
     this.activeModal.close('Save click');
   }
-  goToDetails($event, eventSlug): void {
-    $event.preventDefault();
-    this.activeModal.close();
-    this.router.navigate(['event', eventSlug]);
-  }
-
 }

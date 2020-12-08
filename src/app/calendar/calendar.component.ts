@@ -49,7 +49,6 @@ export class CalendarComponent {
       ariaLabelledBy: 'modal-basic-title',
       centered: true
     });
-    console.log({calendarEvent});
     modalRef.componentInstance.calendarEvent = calendarEvent;
   }
 
